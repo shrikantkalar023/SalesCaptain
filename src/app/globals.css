@@ -18,10 +18,41 @@
 
 body {
   color: rgb(var(--foreground-rgb));
-  background: linear-gradient(
-      to bottom,
-      transparent,
-      rgb(var(--background-end-rgb))
-    )
-    rgb(var(--background-start-rgb));
+  /* background-color: aliceblue; */
+}
+
+/*default color to text & links */
+@layer base {
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  p,
+  a {
+    @apply text-black;
+  }
+}
+
+/* react icons stuff */
+.react-icons {
+  vertical-align: middle;
+}
+
+/* collapsible stuff */
+.collapsible__content {
+  max-height: 0;
+  overflow: hidden;
+  opacity: 0;
+  transition: all 0.3s;
+}
+
+.collapsible--expanded .collapsible__content {
+  max-height: 100%;
+  opacity: 1;
+}
+
+.collapsible--expanded .nav__toggler {
+  background-color: #456ef5;
+  color: white;
 }
