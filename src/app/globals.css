@@ -41,10 +41,10 @@ body {
 
 /* collapsible stuff */
 .collapsible__content {
-  max-height: 0;
   overflow: hidden;
+  max-height: 0;
   opacity: 0;
-  transition: all 0.3s;
+  transition: all 0.4s;
 }
 
 .collapsible--expanded .collapsible__content {

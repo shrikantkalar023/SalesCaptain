@@ -1,6 +1,6 @@
 const LogoWithBg = () => {
   return (
-    <div className="mb-24 flex flex-wrap gap-2">
+    <div className="mb-24 flex flex-wrap justify-center gap-2">
       <img className="w-24" src="/LogoWithBg1.webp" alt="" />
       <img className="w-24" src="/LogoWithBg2.webp" alt="" />
       <img className="w-24" src="/LogoWithBg3.webp" alt="" />

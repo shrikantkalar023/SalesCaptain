@@ -49,18 +49,18 @@ export default function Home() {
         Select your industry to see how it works
       </h2>
       <Industry />
-      <h1 className="mx-4 mb-16 text-center text-3xl font-extrabold leading-tight">
+      <h1 className="mx-4 mb-20 text-center text-3xl font-extrabold leading-tight">
         Make your business stand out with us
       </h1>
       <h2 className="mb-2 px-5 text-center text-2xl font-extrabold leading-tight">
         Get discovered by more customers
       </h2>
-      <h3 className="mb-7 px-5 text-center text-sm font-light leading-snug">
+      <h3 className="mb-5 px-5 text-center text-sm font-light leading-snug">
         Higher reviews & better listings make you more discoverable to more
         people organically
       </h3>
       <a href="#">
-        <p className="mb-12 text-center font-medium text-blue-600">
+        <p className="mb-10 text-center font-medium text-blue-600">
           Get started
         </p>
       </a>
@@ -76,12 +76,12 @@ export default function Home() {
       </h3>
       <a href="#">
         <div className="px-5">
-          <img className="mb-8 rounded-xl" src="/ctav1.webp" alt="" />
+          <img className="mb-6 rounded-xl" src="/ctav1.webp" alt="" />
         </div>
-        <h2 className="mb-3 px-5 text-center font-semibold tracking-wide">
+        <h2 className="mb-2 px-5 text-center font-semibold tracking-wide">
           Google My Business Basics: How to get more customers from GMB.
         </h2>
-        <h3 className="mb-12 px-5 text-center text-sm font-light leading-snug">
+        <h3 className="mb-14 px-5 text-center text-sm font-light leading-snug">
           Customers want to find local proprietors on search engines and nearly
           90 percent of that traffic goes to Google.
         </h3>
@@ -103,7 +103,7 @@ export default function Home() {
           <input
             type="email"
             id="email"
-            className="mb-6 block w-full rounded-lg border border-slate-300  p-2.5 text-center text-sm text-gray-900 placeholder-slate-400 focus:border-sky-500 focus:outline-none focus:ring-0 focus:ring-sky-500"
+            className="mb-5 block w-full rounded-lg border border-slate-300  p-2.5 text-center text-sm text-gray-900 placeholder-slate-400 focus:border-sky-500 focus:outline-none focus:ring-0 focus:ring-sky-500"
             placeholder="ENTER YOUR EMAIL"
             required
           />
@@ -116,9 +116,9 @@ export default function Home() {
             </button>
           </div>
         </form>
-        <div className="mb-6 flex items-center gap-3">
+        <div className="mb-6 flex items-center justify-center gap-3">
           <img className="h-6" src="/stars.webp" alt="" />
-          <p className=" text-sm text-white">500+ Reviews</p>
+          <p className=" text-sm font-extralight text-white">500+ Reviews</p>
         </div>
         <div className="flex items-center justify-center gap-2">
           <img className="h-4" src="/google.webp" alt="" />
@@ -208,7 +208,7 @@ export default function Home() {
       <p className="mb-2 text-center text-xs font-extralight">
         © SalesCaptain Inc 2023 (A division of SalesBook Technologies Pvt Ltd)
       </p>
-      <div className="mb-3 flex flex-col items-center px-5 text-xs font-extralight">
+      <div className="mb-3 flex justify-between px-5 text-xs font-extralight">
         <a href="#">Terms and conditions</a>
         <a href="#">Privacy</a>
         <a href="#">Refund</a>
