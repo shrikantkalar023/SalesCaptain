@@ -78,7 +78,7 @@ export default function Home() {
         <div className="px-5">
           <img className="mb-6 rounded-xl" src="/ctav1.webp" alt="" />
         </div>
-        <h2 className="mb-2 px-5 text-center font-semibold tracking-wide">
+        <h2 className="mb-2 px-5 text-center font-semibold tracking-wide hover:text-blue-700">
           Google My Business Basics: How to get more customers from GMB.
         </h2>
         <h3 className="mb-14 px-5 text-center text-sm font-light leading-snug">
@@ -129,35 +129,35 @@ export default function Home() {
       <footer className="mb-4 bg-black px-5 py-8">
         <div className="mb-12 flex flex-col gap-2">
           <a
-            className=" text-sm font-light text-white decoration-white underline-offset-2 focus:underline"
+            className=" text-sm font-light text-white decoration-white underline-offset-2 hover:underline"
             href="mailto:example@example.com"
             target="_blank"
           >
             Contact
           </a>
           <a
-            className=" text-sm font-light text-white decoration-white underline-offset-2 focus:underline"
+            className=" text-sm font-light text-white decoration-white underline-offset-2 hover:underline"
             href="mailto:example@example.com"
             target="_blank"
           >
             Careers
           </a>
           <a
-            className=" text-sm font-light text-white decoration-white underline-offset-2 focus:underline"
+            className=" text-sm font-light text-white decoration-white underline-offset-2 hover:underline"
             href="mailto:example@example.com"
             target="_blank"
           >
             Press
           </a>
           <a
-            className=" text-sm font-light text-white decoration-white underline-offset-2 focus:underline"
+            className=" text-sm font-light text-white decoration-white underline-offset-2 hover:underline"
             href="mailto:example@example.com"
             target="_blank"
           >
             Partners
           </a>
           <a
-            className=" text-sm font-light text-white decoration-white underline-offset-2 focus:underline"
+            className=" text-sm font-light text-white decoration-white underline-offset-2 hover:underline"
             href="mailto:example@example.com"
             target="_blank"
           >
@@ -169,25 +169,31 @@ export default function Home() {
             <h1 className="mb-2 text-sm font-semibold text-gray-400">
               US Headquarters
             </h1>
-            <p className="pr-40 text-left text-xs font-light text-white">
-              447 Broadway, 2nd Floor, New York 10013
-            </p>
+            <a href="#">
+              <p className="pr-40 text-left text-xs font-light text-white underline-offset-2 hover:underline">
+                447 Broadway, 2nd Floor, New York 10013
+              </p>
+            </a>
           </div>
           <div>
             <h1 className="mb-2 text-sm font-semibold text-gray-400">
               India office
             </h1>
-            <p className="pr-40 text-left text-xs font-light text-white">
-              1467 Janani HSR Layout Bengaluru Karnataka 560102
-            </p>
+            <a href="#">
+              <p className="pr-40 text-left text-xs font-light text-white underline-offset-2 hover:underline">
+                1467 Janani HSR Layout Bengaluru Karnataka 560102
+              </p>
+            </a>
           </div>
           <div>
             <h1 className="mb-2 text-sm font-semibold text-gray-400">
               London office
             </h1>
-            <p className="pr-40 text-left text-xs font-light text-white">
-              79 - 81 Borough Rd London England 400706
-            </p>
+            <a href="#">
+              <p className="pr-40 text-left text-xs font-light text-white underline-offset-2 hover:underline">
+                79 - 81 Borough Rd London England 400706
+              </p>
+            </a>
           </div>
         </div>
         <div className="flex justify-center gap-2">

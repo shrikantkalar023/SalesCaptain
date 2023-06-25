@@ -52,6 +52,10 @@ body {
   opacity: 1;
 }
 
+.nav__toggler:hover {
+  cursor: pointer;
+}
+
 .collapsible--expanded .nav__toggler {
   background-color: #456ef5;
 }
