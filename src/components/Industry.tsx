@@ -1,6 +1,6 @@
 const Industry = () => {
   return (
-    <div className="mb-24 grid grid-cols-2 gap-x-4 gap-y-6 px-6">
+    <div className="mb-24 grid grid-cols-2 gap-x-4 gap-y-6 px-6 sm:mb-28 sm:grid-cols-4">
       <div className="flex flex-col items-center justify-center rounded-lg border px-3 py-7 transition-transform hover:-translate-y-3 hover:cursor-pointer">
         <img className="mb-4 w-11" src="health_blue.svg" alt="" />
         <h1 className="text-center font-medium leading-4">Healthcare</h1>

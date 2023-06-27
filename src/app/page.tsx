@@ -2,6 +2,7 @@ import Features from "@/components/Features";
 import Industry from "@/components/Industry";
 import LogoWithBg from "@/components/LogoWithBg";
 import Navbar from "@/components/Navbar";
+import Services from "@/components/Services";
 import Testimonials from "@/components/Testimonials";
 
 export default function Home() {
@@ -19,11 +20,11 @@ export default function Home() {
         <input
           type="email"
           id="email"
-          className="mb-6 block w-full rounded-lg border border-slate-300 p-2.5 text-center text-sm text-gray-900 placeholder-slate-400 focus:border-sky-500 focus:outline-none focus:ring-0 focus:ring-sky-500 sm:mb-0 sm:max-w-2xl sm:basis-3/5"
+          className="mb-6 block w-full rounded-lg border border-slate-300 p-2.5 text-center text-sm text-gray-900 placeholder-slate-400 focus:border-sky-500 focus:outline-none focus:ring-0 focus:ring-sky-500 sm:mb-0 sm:max-w-2xl sm:basis-3/5 sm:px-3.5 sm:text-left"
           placeholder="ENTER YOUR EMAIL"
           required
         />
-        <div className="mx-1 flex justify-center">
+        <div className="flex justify-center">
           <button
             type="submit"
             className="whitespace-nowrap rounded-lg bg-blue-600  px-7 py-3 text-center text-sm font-bold text-white hover:bg-blue-700"
@@ -45,84 +46,101 @@ export default function Home() {
         </div>
       </div> */}
       <img src="/happy.webp" alt="happy local business person" />
-      <h1 className="mx-4 mb-11 mt-20 text-center text-2xl font-black leading-snug tracking-wide">
+      <h1 className="mx-4 mb-11 mt-20 text-center text-2xl font-black leading-snug tracking-wide sm:text-4xl">
         Trusted by 100,000+ local businesses globally
       </h1>
       <LogoWithBg />
       <Testimonials />
-      <h1 className="mx-4 mb-11 mt-20 text-center text-3xl font-extrabold leading-tight">
+      <h1 className="mx-4 mb-11 mt-20 text-center text-3xl font-extrabold leading-tight sm:mb-12">
         Tools to take your business to next level
       </h1>
       <Features />
-      <h1 className="mx-4 mb-3 text-center text-3xl font-extrabold leading-tight">
+      <h1 className="mx-4 mb-3 text-center text-3xl font-extrabold leading-tight sm:mb-1.5 sm:text-4xl sm:leading-snug">
         SalesCaptain is designed for your business
       </h1>
-      <h2 className="mx-4 mb-12 text-center font-light">
+      <h2 className="mx-4 mb-12 text-center font-light sm:mb-12 sm:text-lg">
         Select your industry to see how it works
       </h2>
       <Industry />
-      <h1 className="mx-4 mb-20 text-center text-3xl font-extrabold leading-tight">
+      <h1 className="mx-4 mb-16 text-center text-3xl font-extrabold leading-tight sm:mb-32 sm:text-4xl">
         Make your business stand out with us
       </h1>
-      <h2 className="mb-2 px-5 text-center text-2xl font-extrabold leading-tight">
-        Get discovered by more customers
-      </h2>
-      <h3 className="mb-5 px-5 text-center text-sm font-light leading-snug">
-        Higher reviews & better listings make you more discoverable to more
-        people organically
-      </h3>
-      <a href="#">
-        <p className="mb-10 text-center font-medium text-blue-600">
-          Get started
-        </p>
-      </a>
-      <div className="px-16">
-        <img className="mb-28 rounded-md" src="/cta1.webp" alt="" />
-      </div>
-      <h2 className="mb-4 px-4 text-center text-3xl font-extrabold leading-tight">
+      <Services />
+      <h2 className="mb-4 px-4 text-center text-3xl font-extrabold leading-tight sm:text-4xl">
         Expert Insights and Resources
       </h2>
-      <h3 className="mb-16 px-5 text-center text-sm font-light leading-snug">
+      <h3 className="mb-24 px-5 text-center text-sm font-light leading-snug sm:mb-28 sm:text-lg sm:font-normal">
         Get the latest business intelligence relevant to your industry, designed
         to help you grow.
       </h3>
-      <a href="#">
-        <div className="px-5">
-          <img className="mb-6 rounded-xl" src="/ctav1.webp" alt="" />
-        </div>
-        <h2 className="mb-2 px-5 text-center font-semibold tracking-wide hover:text-blue-700">
-          Google My Business Basics: How to get more customers from GMB.
-        </h2>
-        <h3 className="mb-14 px-5 text-center text-sm font-light leading-snug">
-          Customers want to find local proprietors on search engines and nearly
-          90 percent of that traffic goes to Google.
-        </h3>
-      </a>
+      <div>
+        <a href="#">
+          <div className="px-5">
+            <img className="mb-6 rounded-xl" src="/ctav1.webp" alt="" />
+          </div>
+          <h2 className="mb-2 px-5 text-center font-semibold tracking-wide hover:text-blue-700 sm:text-left">
+            Google My Business Basics: How to get more customers from GMB.
+          </h2>
+          <h3 className="mb-16 px-5 text-center text-sm font-light leading-snug sm:mb-24 sm:text-left">
+            Customers want to find local proprietors on search engines and
+            nearly 90 percent of that traffic goes to Google.
+          </h3>
+        </a>
+      </div>
+      <div>
+        <a href="#">
+          <div className="px-5">
+            <img className="mb-6 rounded-xl" src="/ctav2.webp" alt="" />
+          </div>
+          <h2 className="mb-2 px-5 text-center font-semibold tracking-wide hover:text-blue-700 sm:text-left">
+            How to use Google&apos;s Business Messaging tool to get new
+            customers
+          </h2>
+          <h3 className="mb-16 px-5 text-center text-sm font-light leading-snug sm:mb-24 sm:text-left">
+            Today&apos;s leading businesses aren&apos;t just being found -
+            they&apos;re engaging the moment they&apos;re discovered.
+          </h3>
+        </a>
+      </div>
+      <div>
+        <a href="#">
+          <div className="px-5">
+            <img className="mb-6 rounded-xl" src="/ctav3.webp" alt="" />
+          </div>
+          <h2 className="mb-2 px-5 text-center font-semibold tracking-wide hover:text-blue-700 sm:text-left">
+            6 Ways to Increase Your Website Traffic and Leads
+          </h2>
+          <h3 className="mb-14 px-5 text-center text-sm font-light leading-snug sm:mb-16 sm:text-left">
+            More than 61% of marketers have reported that attracting traffic to
+            their website is their biggest challenge.
+          </h3>
+        </a>
+      </div>
       <a href="#">
         <p className="mb-12 text-center font-semibold text-blue-600">
           View All Resources
         </p>
       </a>
-      <div className="bg-stone-800 px-5 py-9">
-        <h1 className="mb-4 text-center text-3xl font-extrabold  text-white">
+      <div className="bg-stone-950/90 px-5 py-9 sm:bg-stone-950/95">
+        <h1 className="mb-4 text-center text-3xl font-extrabold text-white sm:text-4xl">
           Ready to grow?
         </h1>
-        <p className="mb-12 px-1 text-center text-sm  text-white">
+        <p className="mb-12 px-1 text-center text-sm text-white  sm:text-base">
           See why 100,000+ businesses trust us. Book a personalized demo to see
           how SalesCaptain provides you the right tools to grow your business.
         </p>
-        <form className="mb-12 px-8">
+        <form className="mb-12 px-8 sm:mb-12 sm:flex sm:justify-center sm:gap-4">
           <input
             type="email"
             id="email"
-            className="mb-5 block w-full rounded-lg border border-slate-300  p-2.5 text-center text-sm text-gray-900 placeholder-slate-400 focus:border-sky-500 focus:outline-none focus:ring-0 focus:ring-sky-500"
+            className="mb-5 block w-full rounded-lg border border-slate-300 p-2.5 text-center text-sm text-gray-900 placeholder-slate-400 focus:border-sky-500 focus:outline-none focus:ring-0 focus:ring-sky-500 sm:mb-0 sm:max-w-2xl sm:basis-3/5 sm:px-3.5 sm:text-left"
             placeholder="ENTER YOUR EMAIL"
             required
           />
-          <div className="flex w-full justify-center">
+          <div className="flex justify-center">
             <button
               type="submit"
-              className="rounded-lg bg-blue-600 px-7 py-3 text-center text-sm font-bold text-white hover:bg-blue-700"
+              className="whitespace-nowrap rounded-lg bg-blue-600 px-7 py-3 text-center text-sm font-bold text-white hover:bg-blue-700"
             >
               GET DEMO
             </button>
@@ -132,83 +150,208 @@ export default function Home() {
           <img className="h-6" src="/stars.webp" alt="" />
           <p className=" text-sm font-extralight text-white">500+ Reviews</p>
         </div>
-        <div className="flex items-center justify-center gap-2">
-          <img className="h-4" src="/google.webp" alt="" />
-          <img className="h-5" src="/capterra.webp" alt="" />
-          <img className="h-4" src="/sofadv.webp" alt="" />
+        <div className="flex items-center justify-center gap-2 sm:gap-4">
+          <img className="h-4 sm:h-6" src="/google.webp" alt="" />
+          <img className="h-5 sm:h-7" src="/capterra.webp" alt="" />
+          <img className="h-4 sm:h-6" src="/sofadv.webp" alt="" />
         </div>
       </div>
       <footer className="mb-4 bg-black px-5 py-8">
-        <div className="mb-12 flex flex-col gap-2">
-          <a
-            className=" text-sm font-light text-white decoration-white underline-offset-2 hover:underline"
-            href="mailto:example@example.com"
-            target="_blank"
-          >
-            Contact
-          </a>
-          <a
-            className=" text-sm font-light text-white decoration-white underline-offset-2 hover:underline"
-            href="mailto:example@example.com"
-            target="_blank"
-          >
-            Careers
-          </a>
-          <a
-            className=" text-sm font-light text-white decoration-white underline-offset-2 hover:underline"
-            href="mailto:example@example.com"
-            target="_blank"
-          >
-            Press
-          </a>
-          <a
-            className=" text-sm font-light text-white decoration-white underline-offset-2 hover:underline"
-            href="mailto:example@example.com"
-            target="_blank"
-          >
-            Partners
-          </a>
-          <a
-            className=" text-sm font-light text-white decoration-white underline-offset-2 hover:underline"
-            href="mailto:example@example.com"
-            target="_blank"
-          >
-            Legal
-          </a>
+        <img
+          className="mb-14 hidden h-7 object-cover sm:block"
+          src="logo_white.webp"
+          alt="SalesCaptain logo"
+        />
+        <div className="sm:grid sm:grid-cols-3 sm:gap-20">
+          <div className="mb-12 flex flex-col gap-2 sm:hidden">
+            <a
+              className=" text-sm font-light text-white decoration-white underline-offset-2 hover:underline"
+              href="mailto:example@example.com"
+              target="_blank"
+            >
+              Contact
+            </a>
+            <a
+              className=" text-sm font-light text-white decoration-white underline-offset-2 hover:underline"
+              href="mailto:example@example.com"
+              target="_blank"
+            >
+              Careers
+            </a>
+            <a
+              className=" text-sm font-light text-white decoration-white underline-offset-2 hover:underline"
+              href="mailto:example@example.com"
+              target="_blank"
+            >
+              Press
+            </a>
+            <a
+              className=" text-sm font-light text-white decoration-white underline-offset-2 hover:underline"
+              href="mailto:example@example.com"
+              target="_blank"
+            >
+              Partners
+            </a>
+            <a
+              className=" text-sm font-light text-white decoration-white underline-offset-2 hover:underline"
+              href="mailto:example@example.com"
+              target="_blank"
+            >
+              Legal
+            </a>
+          </div>
+          <div className="mb-20 flex flex-col gap-6">
+            <div>
+              <h1 className="mb-2 text-sm font-semibold text-gray-400">
+                US Headquarters
+              </h1>
+              <a href="#">
+                <p className="pr-40 text-left text-xs font-light text-white underline-offset-2 hover:underline sm:pr-0">
+                  447 Broadway, 2nd Floor, New York 10013
+                </p>
+              </a>
+            </div>
+            <div>
+              <h1 className="mb-2 text-sm font-semibold text-gray-400">
+                India office
+              </h1>
+              <a href="#">
+                <p className="pr-40 text-left text-xs font-light text-white underline-offset-2 hover:underline sm:pr-0">
+                  1467 Janani HSR Layout Bengaluru Karnataka 560102
+                </p>
+              </a>
+            </div>
+            <div>
+              <h1 className="mb-2 text-sm font-semibold text-gray-400">
+                London office
+              </h1>
+              <a href="#">
+                <p className="pr-40 text-left text-xs font-light text-white underline-offset-2 hover:underline sm:pr-0">
+                  79 - 81 Borough Rd London England 400706
+                </p>
+              </a>
+            </div>
+          </div>
+          <div className="mb-12 hidden flex-col gap-2 sm:flex sm:gap-0.5">
+            <h1 className="mb-2 text-sm font-semibold text-gray-400">
+              Company
+            </h1>
+            <a
+              className=" text-sm font-light text-white decoration-white underline-offset-2 hover:underline"
+              href="mailto:example@example.com"
+              target="_blank"
+            >
+              Contact
+            </a>
+            <a
+              className=" text-sm font-light text-white decoration-white underline-offset-2 hover:underline"
+              href="mailto:example@example.com"
+              target="_blank"
+            >
+              Careers
+            </a>
+            <a
+              className=" text-sm font-light text-white decoration-white underline-offset-2 hover:underline"
+              href="mailto:example@example.com"
+              target="_blank"
+            >
+              Press
+            </a>
+            <a
+              className=" text-sm font-light text-white decoration-white underline-offset-2 hover:underline"
+              href="mailto:example@example.com"
+              target="_blank"
+            >
+              Partners
+            </a>
+            <a
+              className=" text-sm font-light text-white decoration-white underline-offset-2 hover:underline"
+              href="mailto:example@example.com"
+              target="_blank"
+            >
+              Legal
+            </a>
+            <h1 className="mb-2 mt-6 text-sm font-semibold text-gray-400">
+              Partner
+            </h1>
+            <a
+              className=" text-sm font-light text-white decoration-white underline-offset-2 hover:underline"
+              href="mailto:example@example.com"
+              target="_blank"
+            >
+              Become a Partner
+            </a>
+          </div>
+          <div className="mb-12 hidden flex-col gap-2 sm:flex sm:gap-0.5">
+            <h1 className="mb-2 text-sm font-semibold text-gray-400">
+              Industry
+            </h1>
+            <a
+              className=" text-sm font-light text-white decoration-white underline-offset-2 hover:underline"
+              href="#"
+              target="_blank"
+            >
+              Healthcare
+            </a>
+            <a
+              className=" text-sm font-light text-white decoration-white underline-offset-2 hover:underline"
+              href="#"
+              target="_blank"
+            >
+              Dental
+            </a>
+            <a
+              className=" text-sm font-light text-white decoration-white underline-offset-2 hover:underline"
+              href="#"
+              target="_blank"
+            >
+              Home Services
+            </a>
+            <a
+              className=" text-sm font-light text-white decoration-white underline-offset-2 hover:underline"
+              href="#"
+              target="_blank"
+            >
+              Retail
+            </a>
+            <a
+              className=" text-sm font-light text-white decoration-white underline-offset-2 hover:underline"
+              href="#"
+              target="_blank"
+            >
+              Hospitality
+            </a>
+            <a
+              className=" text-sm font-light text-white decoration-white underline-offset-2 hover:underline"
+              href="#"
+              target="_blank"
+            >
+              Automotive
+            </a>
+            <a
+              className=" text-sm font-light text-white decoration-white underline-offset-2 hover:underline"
+              href="#"
+              target="_blank"
+            >
+              Restaurants
+            </a>
+            <a
+              className=" text-sm font-light text-white decoration-white underline-offset-2 hover:underline"
+              href="#"
+              target="_blank"
+            >
+              Wellness
+            </a>
+            <a
+              className=" text-sm font-light text-white decoration-white underline-offset-2 hover:underline"
+              href="#"
+              target="_blank"
+            >
+              Professional Services
+            </a>
+          </div>
         </div>
-        <div className="mb-20 flex flex-col gap-6">
-          <div>
-            <h1 className="mb-2 text-sm font-semibold text-gray-400">
-              US Headquarters
-            </h1>
-            <a href="#">
-              <p className="pr-40 text-left text-xs font-light text-white underline-offset-2 hover:underline">
-                447 Broadway, 2nd Floor, New York 10013
-              </p>
-            </a>
-          </div>
-          <div>
-            <h1 className="mb-2 text-sm font-semibold text-gray-400">
-              India office
-            </h1>
-            <a href="#">
-              <p className="pr-40 text-left text-xs font-light text-white underline-offset-2 hover:underline">
-                1467 Janani HSR Layout Bengaluru Karnataka 560102
-              </p>
-            </a>
-          </div>
-          <div>
-            <h1 className="mb-2 text-sm font-semibold text-gray-400">
-              London office
-            </h1>
-            <a href="#">
-              <p className="pr-40 text-left text-xs font-light text-white underline-offset-2 hover:underline">
-                79 - 81 Borough Rd London England 400706
-              </p>
-            </a>
-          </div>
-        </div>
-        <div className="flex justify-center gap-2">
+        <div className="flex justify-center gap-2 sm:justify-end">
           <a href="#">
             <img className="w-8" src="/socials1.svg" alt="" />
           </a>
