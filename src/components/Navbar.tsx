@@ -22,7 +22,7 @@ const Navbar = () => {
       <div className="px-3 py-5">
         <a href="/">
           <img
-            className="h-5 "
+            className="h-5 md:h-6"
             src="/logo_normal.webp"
             alt="Sales Captain logo"
           />

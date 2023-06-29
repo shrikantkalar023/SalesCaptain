@@ -1,16 +1,20 @@
 const Testimonials = () => {
   return (
-    <div>
-      <div className="mx-6 mb-10 rounded-3xl border border-slate-200 px-5 py-8 text-center">
-        <img
-          className="mx-auto mb-2 w-14"
-          src="/test1.webp"
-          alt="a happy customer"
-        />
-        <h1 className="text-xl font-semibold  tracking-wide">Simon Page</h1>
-        <h2 className="mb-8 text-sm font-extralight">
-          Owner, Mamagato Restaurant
-        </h2>
+    <div className="mx-6 mb-28 md:flex md:flex-wrap md:justify-center md:gap-x-4 md:gap-y-10">
+      <div className="mb-10 rounded-3xl border border-slate-200 px-5 py-8 text-center md:m-0 md:max-w-md md:grow md:basis-[22rem]">
+        <div className="md:mb-8 md:flex md:items-center md:gap-7">
+          <img
+            className="mx-auto mb-2 w-14 md:m-0"
+            src="/test1.webp"
+            alt="a happy customer"
+          />
+          <div className="mb-8 md:m-0 md:text-left">
+            <h1 className="text-xl font-semibold tracking-wide">Simon Page</h1>
+            <h2 className="text-sm font-extralight">
+              Owner, Mamagato Restaurant
+            </h2>
+          </div>
+        </div>
         <p className="mb-14 text-sm font-light">
           &quot;In 2022 so far we are hitting our best months in customers &
           revenue even in an economic downturn&quot;
@@ -38,16 +42,22 @@ const Testimonials = () => {
           </span>
         </div>
       </div>
-      <div className="mx-6 mb-10 rounded-3xl border border-slate-200 px-5 py-8 text-center">
-        <img
-          className="mx-auto mb-2 w-14"
-          src="/test2.webp"
-          alt="a happy customer"
-        />
-        <h1 className="text-xl font-semibold  tracking-wide">Daniel Wilson</h1>
-        <h2 className="mb-8 text-sm font-extralight">
-          Marketing head, The Air Conditioning Company
-        </h2>
+      <div className="mb-10 rounded-3xl border border-slate-200 px-5 py-8 text-center md:m-0 md:max-w-md md:grow md:basis-[22rem]">
+        <div className="md:mb-8 md:flex md:items-center md:gap-7">
+          <img
+            className="mx-auto mb-2 w-14 md:m-0"
+            src="/test2.webp"
+            alt="a happy customer"
+          />
+          <div className="mb-8 md:m-0 md:text-left">
+            <h1 className="text-xl font-semibold tracking-wide">
+              Daniel Wilson
+            </h1>
+            <h2 className="text-sm font-extralight">
+              Marketing head, The Air Conditioning Company
+            </h2>
+          </div>
+        </div>
         <p className="mb-14 text-sm font-light">
           &quot;Our rating improved from 3.3 to 4.6 & reviews are up 200%, we
           are getting more leads from Google&quot;
@@ -73,14 +83,18 @@ const Testimonials = () => {
           </span>
         </div>
       </div>
-      <div className="mx-6 mb-28 rounded-3xl border border-slate-200 px-5 py-8 text-center">
-        <img
-          className="mx-auto mb-2 w-14"
-          src="/test3.webp"
-          alt="a happy customer"
-        />
-        <h1 className="text-xl font-semibold  tracking-wide">Debbie Rose</h1>
-        <h2 className="mb-8 text-sm font-extralight">Owner, Jiva luxury Spa</h2>
+      <div className="rounded-3xl border border-slate-200 px-5 py-8 text-center md:max-w-md md:grow md:basis-[22rem]">
+        <div className="md:mb-8 md:flex md:items-center md:gap-7">
+          <img
+            className="mx-auto mb-2 w-14 md:m-0"
+            src="/test3.webp"
+            alt="a happy customer"
+          />
+          <div className="mb-8 md:m-0 md:text-left">
+            <h1 className="text-xl font-semibold tracking-wide">Debbie Rose</h1>
+            <h2 className="text-sm font-extralight">Owner, Jiva luxury Spa</h2>
+          </div>
+        </div>
         <p className="mb-14 text-sm font-light">
           &quot;Effective text & email marketing campaign on SalesCaptain helped
           us make additional $150k in two weeks&quot;
