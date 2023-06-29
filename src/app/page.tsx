@@ -33,7 +33,13 @@ export default function Home() {
           </button>
         </div>
       </form>
-      <img src="/happy.webp" alt="happy local business person" />
+      <div>
+        <img
+          className="w-screen"
+          src="/happy.webp"
+          alt="happy local business person"
+        />
+      </div>
       <h1 className="mx-4 mb-11 mt-20 text-center text-2xl font-black leading-snug tracking-wide sm:text-4xl">
         Trusted by 100,000+ local businesses globally
       </h1>
